@@ -3,7 +3,7 @@ pipeline {
   environment {
     AWS_DEFAULT_REGION = 'us-east-1'
     BUCKET_NAME        = 'tanya-file-mover-bucket'
-    LAMBDA_ROLE_ARN    = 'arn:aws:iam::<account-id>:role/file-mover-role'
+    LAMBDA_ROLE_ARN    = 'arn:aws:iam::195471655402:role/file-mover-role'
     PATH = "/Library/Frameworks/Python.framework/Versions/3.13/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
   }
   stages {
